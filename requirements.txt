@@ -1,0 +1,7 @@
+# Only needed for merge.py; versions recorded in the experiment environment.
+torch==2.11.0
+transformers==5.14.1
+peft==0.20.0
+accelerate==1.14.0
+numpy==2.3.5
+safetensors==0.8.0

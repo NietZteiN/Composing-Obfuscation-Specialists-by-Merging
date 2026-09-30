@@ -1,0 +1,147 @@
+{
+  "description": "Available corpus snapshot, exported without changing code, inputs, gold outputs, or row fields. Training and validation rows are separated using the recorded program assignments. Later evaluation conditions are provided separately as regenerated data, not recovered original experiment files.",
+  "files": {
+    "train_python.jsonl.gz": {
+      "rows": 26841,
+      "programs": 1563,
+      "rows_by_condition": {
+        "L0": 4689,
+        "L1b": 4626,
+        "L1r": 4689,
+        "L2": 4686,
+        "S1": 3468,
+        "S2": 4683
+      },
+      "sha256": "bce6c9cf5948d22e36a90ff3caf348156c319d026ea5aebcff6a4ff11eec12f7"
+    },
+    "val_python.jsonl.gz": {
+      "rows": 1917,
+      "programs": 111,
+      "rows_by_condition": {
+        "L0": 333,
+        "L1b": 333,
+        "L1r": 333,
+        "L2": 333,
+        "S1": 252,
+        "S2": 333
+      },
+      "sha256": "1cd0bef5947ecc6696c13f4df8f20e5554cd59353ab2a6d1da93aaf3bc41a147"
+    },
+    "eval_python.jsonl.gz": {
+      "rows": 21696,
+      "programs": 557,
+      "rows_by_condition": {
+        "C_L1b_S1": 1254,
+        "C_L1r_S1": 1254,
+        "C_L1r_S3": 1671,
+        "C_L2_S4": 1668,
+        "C_S1_L1r": 1254,
+        "C_S4_S3": 1668,
+        "L0": 1671,
+        "L1b": 1659,
+        "L1r": 1671,
+        "L2": 1671,
+        "S1": 1248,
+        "S2": 1668,
+        "S3": 1671,
+        "S4": 1668
+      },
+      "sha256": "2717e0917fcef353078d4c777786f368e3ea1893469a9e6c78b70d2cad18ede4"
+    },
+    "eval_javascript.jsonl.gz": {
+      "rows": 7044,
+      "programs": 168,
+      "rows_by_condition": {
+        "C_L1b_S1": 501,
+        "C_L1r_S1": 501,
+        "C_L1r_S3": 504,
+        "C_L2_S4": 504,
+        "C_S1_L1r": 501,
+        "C_S4_S3": 504,
+        "L0": 504,
+        "L1b": 504,
+        "L1r": 504,
+        "L2": 504,
+        "S1": 501,
+        "S2": 504,
+        "S3": 504,
+        "S4": 504
+      },
+      "sha256": "f961979c2ba60e8194de522c49dd652fe3c4aa5597f009c502d10079e8a48adf"
+    },
+    "eval_python_regenerated.jsonl.gz": {
+      "rows": 15720,
+      "programs": 557,
+      "rows_by_condition": {
+        "C3_L1r_S1_S4": 1248,
+        "C3_L1r_S1_X1": 1242,
+        "C3_L1r_S3_S4": 1668,
+        "C3_S1_S3_S4": 1176,
+        "C4_L1r_S1_S3_S4": 1248,
+        "C_L1r_X1": 1215,
+        "C_L1r_X1m": 1053,
+        "C_S1_X1s": 1242,
+        "C_S2_X1": 1665,
+        "C_X1_S1": 957,
+        "X1": 1215,
+        "X1m": 1053,
+        "X1s": 738
+      },
+      "sha256": "6b6e5cf73c2c2d02df37c2f58ea0d8ab2fdbc75f838a0e49e0a34fff6fb692d4",
+      "origin": "regenerated; see regeneration.json"
+    }
+  },
+  "source_sha256": {
+    "train/pairs/L0/python.jsonl": "6589ba4d5928ff5213bcde8a7cdd2d98d69717a074ec239bd14969feb1acbddf",
+    "train/pairs/L1b/python.jsonl": "409bbebba95ef2cc4b19a31f1d8bbe529f30188f3f25423f658269668b896c37",
+    "train/pairs/L1r/python.jsonl": "c1980e6f7c91fffd0fa32e5b3375c650f1874b91ecb16f22bc4757b9d859b503",
+    "train/pairs/L2/python.jsonl": "c428032050b94661a0a067f38f6057dbb384b62aec5a3407fd73afd92743419c",
+    "train/pairs/S1/python.jsonl": "c29f8662887fb289ff193beef79e36d43081fed82a011e0aae78fa06572bf50b",
+    "train/pairs/S2/python.jsonl": "c04d973ba3cdd37f38321ad9d94185b58275f6ff3c29b0e5730f9daebfcee484",
+    "eval/heldout/items/C_L1b_S1/python.jsonl": "2b4439d31975024102e58be62d299326db87cd4c2d50b6143d2900447a464da7",
+    "eval/heldout/items/C_L1r_S1/python.jsonl": "0a5ec23ed4f2b61913eb52cf33e4d12b4159092f7e3425a27e0f81e62f37f6ee",
+    "eval/heldout/items/C_L1r_S3/python.jsonl": "aefa56b0f4eee69466265f78bf97b4d7aa32a1b8829c0b3767bc147032e62f71",
+    "eval/heldout/items/C_L2_S4/python.jsonl": "68d491c74364987247b20d85d14beb1608c5dcfecaa8d6b4982f79727c9542f0",
+    "eval/heldout/items/C_S1_L1r/python.jsonl": "e99a06ba4bfbd0c4eabf9f38ba0d350cc8a9edad4d4ea24ab4ac1ac937810d18",
+    "eval/heldout/items/C_S4_S3/python.jsonl": "45957f10bb6cd3edd640ee6eb6927ac751c8a534e8096441358cf85c1ab6cc4e",
+    "eval/heldout/items/L0/python.jsonl": "fbca3e2781c79604ce0f11a884191c19661bd51e26cdb39b4582812c336f652e",
+    "eval/heldout/items/L1b/python.jsonl": "922137dafc970206e922c9a93102fcba4ca2fb225e66d755f1ed349de16b6ab2",
+    "eval/heldout/items/L1r/python.jsonl": "dabb86ef072c7353170e5044f64d2fbee5a9016bc76395b329661730d70c791d",
+    "eval/heldout/items/L2/python.jsonl": "de784a6cbd385033ffe5872b5256fd54d4235cfb8747756559f28fd00f580e2b",
+    "eval/heldout/items/S1/python.jsonl": "d5928f2bb3763c43cb3d7aaa3ce402a44b22de80a588ebd9da3aed8173868844",
+    "eval/heldout/items/S2/python.jsonl": "84da4bd61c3e162e4f0e1ab645b187a23b9153baefe6f1c5c62b27c987c2c43b",
+    "eval/heldout/items/S3/python.jsonl": "e670820d76740325fb313500d854ec7b02528a92590a3b8891110d6638717f91",
+    "eval/heldout/items/S4/python.jsonl": "acd8616ae1f64a2c47dbb31b823f4028e33484586b43999bad281b94d7cb7125",
+    "eval/heldout/items/C_L1b_S1/javascript.jsonl": "6a4a12d2525c1c8efa39d55dc366b695118f7dd12d666c1398414a020ffb0a1d",
+    "eval/heldout/items/C_L1r_S1/javascript.jsonl": "82b1db92543d71b46d7f166fd9145d62305a9da7974862ebc06077e8e62e5813",
+    "eval/heldout/items/C_L1r_S3/javascript.jsonl": "1c5f68722c245c39ab5c967f8a1801cc317053c3ae5483a878bf2776b0a6ab23",
+    "eval/heldout/items/C_L2_S4/javascript.jsonl": "2fe1cbdf24e47c2c43801cf504b0284546b45169c5d350424292b5ae3bbe6187",
+    "eval/heldout/items/C_S1_L1r/javascript.jsonl": "5c7a4aa43644e2bf6d65230f503c55b6f06fe25990635d03d16ec144aeac798e",
+    "eval/heldout/items/C_S4_S3/javascript.jsonl": "be2ae2ed704053d9699e14540006d4ff54bfbf88334eacb79365b8b9f59de0e8",
+    "eval/heldout/items/L0/javascript.jsonl": "86de6f16eed9e42fe5db8193d34818b297f535357a3a3456746d0319ce49de86",
+    "eval/heldout/items/L1b/javascript.jsonl": "0a0d3a95a8599a2d7afe9e2aae3935c1915b8c9a65fc81d2f3a9666957ed4436",
+    "eval/heldout/items/L1r/javascript.jsonl": "1fe3e3d4931a29b39153798e3910e4568db32f4cdae29288fb96f2525f90e974",
+    "eval/heldout/items/L2/javascript.jsonl": "d008337af166009b169eed62105743d9c72437f42ac5a9503bf8a96b858dfb91",
+    "eval/heldout/items/S1/javascript.jsonl": "a10ad96ed15c39f83884cfd5e33b772535ff2d641d12c39c30cad0c2205c8619",
+    "eval/heldout/items/S2/javascript.jsonl": "135fdb3016ba0c57ba440dbf303d16cdf2721eac5ed3ee9e3aa5c730c88f561c",
+    "eval/heldout/items/S3/javascript.jsonl": "e0169564657d257e9784669e43eedfe735c8b0de1050ed466d78edf86e5fa0d0",
+    "eval/heldout/items/S4/javascript.jsonl": "d136f6be66fd3a494dab507343c5aadf877f895c475edb0b35b59ce727199ab5"
+  },
+  "excluded": "H1 quarantine, legacy human-study test sets, unrelated training conditions, model weights, predictions, benchmark retention task sources.",
+  "regenerated_evaluation_conditions": [
+    "X1",
+    "X1m",
+    "X1s",
+    "C_L1r_X1",
+    "C_X1_S1",
+    "C_S2_X1",
+    "C_L1r_X1m",
+    "C_S1_X1s",
+    "C3_L1r_S1_X1",
+    "C3_L1r_S3_S4",
+    "C3_S1_S3_S4",
+    "C3_L1r_S1_S4",
+    "C4_L1r_S1_S3_S4"
+  ],
+  "missing_evaluation_conditions": []
+}

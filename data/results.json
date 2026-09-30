@@ -1,0 +1,896 @@
+{
+  "contrasts": [
+    {
+      "contrast": "Merge - Base",
+      "regime": "clean L0",
+      "per_model": {
+        "codellama-7b": {
+          "delta": 16.95,
+          "lo": 14.49,
+          "hi": 19.46,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": 22.46,
+          "lo": 19.88,
+          "hi": 25.14,
+          "n_programs": 557
+        },
+        "codellama-34b": null,
+        "llama31-8b": {
+          "delta": 20.36,
+          "lo": 17.54,
+          "hi": 23.11,
+          "n_programs": 557
+        },
+        "starcoder2-15b": null,
+        "gemma3-12b": null,
+        "codegemma-7b": {
+          "delta": 22.81,
+          "lo": 20.07,
+          "hi": 25.63,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": 14.79,
+          "lo": 12.33,
+          "hi": 17.25,
+          "n_programs": 557
+        }
+      }
+    },
+    {
+      "contrast": "Merge - Clean LoRA",
+      "regime": "clean L0",
+      "per_model": {
+        "codellama-7b": {
+          "delta": -0.06,
+          "lo": -1.38,
+          "hi": 1.2,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": 0.78,
+          "lo": -0.54,
+          "hi": 2.16,
+          "n_programs": 557
+        },
+        "codellama-34b": {
+          "delta": 0.66,
+          "lo": -0.66,
+          "hi": 1.98,
+          "n_programs": 557
+        },
+        "llama31-8b": {
+          "delta": 1.38,
+          "lo": -0.18,
+          "hi": 2.81,
+          "n_programs": 557
+        },
+        "starcoder2-15b": {
+          "delta": -0.3,
+          "lo": -1.74,
+          "hi": 1.14,
+          "n_programs": 557
+        },
+        "gemma3-12b": {
+          "delta": 0.36,
+          "lo": -0.96,
+          "hi": 1.74,
+          "n_programs": 557
+        },
+        "codegemma-7b": {
+          "delta": -0.06,
+          "lo": -1.56,
+          "hi": 1.44,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": 0.3,
+          "lo": -1.14,
+          "hi": 1.8,
+          "n_programs": 557
+        }
+      }
+    },
+    {
+      "contrast": "Breadth - Merge",
+      "regime": "unseen family",
+      "per_model": {
+        "codellama-7b": {
+          "delta": -2.21,
+          "lo": -3.51,
+          "hi": -0.91,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": -2.32,
+          "lo": -3.58,
+          "hi": -1.1,
+          "n_programs": 557
+        },
+        "codellama-34b": {
+          "delta": -1.25,
+          "lo": -2.61,
+          "hi": 0.12,
+          "n_programs": 557
+        },
+        "llama31-8b": {
+          "delta": -2.96,
+          "lo": -4.18,
+          "hi": -1.72,
+          "n_programs": 557
+        },
+        "starcoder2-15b": {
+          "delta": -1.21,
+          "lo": -2.52,
+          "hi": 0.05,
+          "n_programs": 557
+        },
+        "gemma3-12b": {
+          "delta": -1.82,
+          "lo": -3.03,
+          "hi": -0.62,
+          "n_programs": 557
+        },
+        "codegemma-7b": {
+          "delta": 0.26,
+          "lo": -1.05,
+          "hi": 1.53,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": -1.96,
+          "lo": -3.33,
+          "hi": -0.66,
+          "n_programs": 557
+        }
+      }
+    },
+    {
+      "contrast": "Breadth - Router",
+      "regime": "unseen family",
+      "per_model": {
+        "codellama-7b": {
+          "delta": -2.96,
+          "lo": -4.17,
+          "hi": -1.72,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": -3.29,
+          "lo": -4.46,
+          "hi": -2.15,
+          "n_programs": 557
+        },
+        "codellama-34b": {
+          "delta": -2.8,
+          "lo": -4.16,
+          "hi": -1.53,
+          "n_programs": 557
+        },
+        "llama31-8b": {
+          "delta": -4.56,
+          "lo": -5.77,
+          "hi": -3.42,
+          "n_programs": 557
+        },
+        "starcoder2-15b": {
+          "delta": -2.64,
+          "lo": -3.67,
+          "hi": -1.57,
+          "n_programs": 557
+        },
+        "gemma3-12b": {
+          "delta": -3.28,
+          "lo": -4.36,
+          "hi": -2.2,
+          "n_programs": 557
+        },
+        "codegemma-7b": {
+          "delta": -2.5,
+          "lo": -3.73,
+          "hi": -1.22,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": -4.25,
+          "lo": -5.67,
+          "hi": -2.9,
+          "n_programs": 557
+        }
+      }
+    },
+    {
+      "contrast": "Router - Merge",
+      "regime": "unseen family",
+      "per_model": {
+        "codellama-7b": {
+          "delta": 0.76,
+          "lo": -0.13,
+          "hi": 1.58,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": 0.96,
+          "lo": 0.3,
+          "hi": 1.67,
+          "n_programs": 557
+        },
+        "codellama-34b": {
+          "delta": 1.54,
+          "lo": 0.68,
+          "hi": 2.38,
+          "n_programs": 557
+        },
+        "llama31-8b": {
+          "delta": 1.6,
+          "lo": 0.65,
+          "hi": 2.52,
+          "n_programs": 557
+        },
+        "starcoder2-15b": {
+          "delta": 1.43,
+          "lo": 0.65,
+          "hi": 2.22,
+          "n_programs": 557
+        },
+        "gemma3-12b": {
+          "delta": 1.45,
+          "lo": 0.7,
+          "hi": 2.19,
+          "n_programs": 557
+        },
+        "codegemma-7b": {
+          "delta": 2.75,
+          "lo": 1.84,
+          "hi": 3.63,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": 2.29,
+          "lo": 1.47,
+          "hi": 3.1,
+          "n_programs": 557
+        }
+      }
+    },
+    {
+      "contrast": "Router - Merge",
+      "regime": "unseen stacks",
+      "per_model": {
+        "codellama-7b": {
+          "delta": 0.82,
+          "lo": -0.11,
+          "hi": 1.7,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": 1.0,
+          "lo": 0.33,
+          "hi": 1.73,
+          "n_programs": 557
+        },
+        "codellama-34b": {
+          "delta": 1.53,
+          "lo": 0.62,
+          "hi": 2.41,
+          "n_programs": 557
+        },
+        "llama31-8b": {
+          "delta": 1.64,
+          "lo": 0.69,
+          "hi": 2.6,
+          "n_programs": 557
+        },
+        "starcoder2-15b": {
+          "delta": 1.5,
+          "lo": 0.71,
+          "hi": 2.28,
+          "n_programs": 557
+        },
+        "gemma3-12b": {
+          "delta": 1.64,
+          "lo": 0.87,
+          "hi": 2.41,
+          "n_programs": 557
+        },
+        "codegemma-7b": {
+          "delta": 2.77,
+          "lo": 1.77,
+          "hi": 3.72,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": 2.45,
+          "lo": 1.59,
+          "hi": 3.3,
+          "n_programs": 557
+        }
+      }
+    },
+    {
+      "contrast": "Router - Merge",
+      "regime": "backward",
+      "per_model": {
+        "codellama-7b": {
+          "delta": -3.06,
+          "lo": -4.2,
+          "hi": -1.91,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": -4.92,
+          "lo": -6.08,
+          "hi": -3.74,
+          "n_programs": 557
+        },
+        "codellama-34b": null,
+        "llama31-8b": {
+          "delta": -6.28,
+          "lo": -7.45,
+          "hi": -5.15,
+          "n_programs": 557
+        },
+        "starcoder2-15b": {
+          "delta": -2.17,
+          "lo": -3.58,
+          "hi": -0.83,
+          "n_programs": 557
+        },
+        "gemma3-12b": {
+          "delta": 0.16,
+          "lo": -0.58,
+          "hi": 0.88,
+          "n_programs": 557
+        },
+        "codegemma-7b": {
+          "delta": 0.01,
+          "lo": -0.79,
+          "hi": 0.8,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": -2.73,
+          "lo": -3.84,
+          "hi": -1.69,
+          "n_programs": 557
+        }
+      }
+    },
+    {
+      "contrast": "Merge - Base",
+      "regime": "backward",
+      "per_model": {
+        "codellama-7b": {
+          "delta": 3.56,
+          "lo": 2.55,
+          "hi": 4.64,
+          "n_programs": 557
+        },
+        "codellama-13b": {
+          "delta": 4.98,
+          "lo": 3.78,
+          "hi": 6.21,
+          "n_programs": 557
+        },
+        "codellama-34b": {
+          "delta": 5.39,
+          "lo": 4.21,
+          "hi": 6.6,
+          "n_programs": 557
+        },
+        "llama31-8b": {
+          "delta": 3.53,
+          "lo": 2.42,
+          "hi": 4.76,
+          "n_programs": 557
+        },
+        "starcoder2-15b": {
+          "delta": 2.95,
+          "lo": 1.19,
+          "hi": 4.71,
+          "n_programs": 557
+        },
+        "gemma3-12b": {
+          "delta": 3.07,
+          "lo": 2.12,
+          "hi": 4.01,
+          "n_programs": 557
+        },
+        "codegemma-7b": {
+          "delta": 6.4,
+          "lo": 5.34,
+          "hi": 7.45,
+          "n_programs": 557
+        },
+        "granite31-8b": {
+          "delta": -0.27,
+          "lo": -1.81,
+          "hi": 1.32,
+          "n_programs": 557
+        }
+      }
+    }
+  ],
+  "merge_operator": {
+    "CodeLlama-7B": {
+      "forward": {
+        "L0": {
+          "base": 100.0,
+          "linear": null,
+          "TIES": 141.8,
+          "DARE-TIES": 163.6
+        },
+        "singles": {
+          "base": 75.3,
+          "linear": null,
+          "TIES": 123.9,
+          "DARE-TIES": 147.0
+        },
+        "unseen": {
+          "base": 46.2,
+          "linear": null,
+          "TIES": 88.0,
+          "DARE-TIES": 105.0
+        }
+      },
+      "backward": {
+        "L0": {
+          "base": 100.0,
+          "linear": null,
+          "TIES": 94.9,
+          "DARE-TIES": 102.2
+        },
+        "singles": {
+          "base": 92.7,
+          "linear": null,
+          "TIES": 92.5,
+          "DARE-TIES": 98.1
+        },
+        "unseen": {
+          "base": 80.6,
+          "linear": null,
+          "TIES": 78.8,
+          "DARE-TIES": 81.0
+        }
+      },
+      "lock": {
+        "base": 0.0,
+        "linear": 0.17354877318970677,
+        "TIES": 0.0,
+        "DARE-TIES": 0.019150209455415918
+      }
+    },
+    "CodeLlama-13B": {
+      "forward": {
+        "L0": {
+          "base": 100.0,
+          "linear": null,
+          "TIES": 162.7,
+          "DARE-TIES": 188.4
+        },
+        "singles": {
+          "base": 85.1,
+          "linear": null,
+          "TIES": 142.8,
+          "DARE-TIES": 168.0
+        },
+        "unseen": {
+          "base": 57.3,
+          "linear": 24.6,
+          "TIES": 94.9,
+          "DARE-TIES": 119.7
+        }
+      }
+    },
+    "Llama-3.1-8B": {
+      "forward": {
+        "L0": {
+          "base": 100.0,
+          "linear": 115.0,
+          "TIES": 154.1,
+          "DARE-TIES": 178.1
+        },
+        "singles": {
+          "base": 84.9,
+          "linear": 98.0,
+          "TIES": 133.2,
+          "DARE-TIES": 155.6
+        },
+        "unseen": {
+          "base": 52.5,
+          "linear": null,
+          "TIES": 83.1,
+          "DARE-TIES": 103.6
+        }
+      },
+      "backward": {
+        "L0": {
+          "base": 100.0,
+          "linear": null,
+          "TIES": 103.8,
+          "DARE-TIES": 107.3
+        },
+        "singles": {
+          "base": 83.7,
+          "linear": null,
+          "TIES": 94.8,
+          "DARE-TIES": 104.0
+        },
+        "unseen": {
+          "base": 64.9,
+          "linear": null,
+          "TIES": 77.3,
+          "DARE-TIES": 80.7
+        }
+      },
+      "lock": {
+        "base": 0.0,
+        "linear": 0.42848593656493117,
+        "TIES": 0.0,
+        "DARE-TIES": 0.0
+      }
+    },
+    "Granite-3.1-8B": {
+      "forward": {
+        "L0": {
+          "base": 100.0,
+          "linear": null,
+          "TIES": 133.4,
+          "DARE-TIES": 151.5
+        },
+        "singles": {
+          "base": 92.2,
+          "linear": null,
+          "TIES": 119.2,
+          "DARE-TIES": 132.4
+        },
+        "unseen": {
+          "base": 58.1,
+          "linear": null,
+          "TIES": 72.1,
+          "DARE-TIES": 82.1
+        }
+      }
+    }
+  },
+  "retention": {
+    "codellama-7b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4411,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4561,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.2657,
+        "raw_no_def_rate": 0.396
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.198,
+        "raw_no_def_rate": 0.6917
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.0251,
+        "raw_no_def_rate": 0.9549
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.3434,
+        "raw_no_def_rate": 0.2807
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4135,
+        "raw_no_def_rate": 0.1353
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4536,
+        "raw_no_def_rate": 0.0
+      }
+    },
+    "codellama-13b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4812,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5564,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4762,
+        "raw_no_def_rate": 0.1053
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.3358,
+        "raw_no_def_rate": 0.4185
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.3835,
+        "raw_no_def_rate": 0.2206
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4962,
+        "raw_no_def_rate": 0.0977
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5088,
+        "raw_no_def_rate": 0.0075
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5188,
+        "raw_no_def_rate": 0.0
+      }
+    },
+    "codellama-34b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5213,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5739,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5439,
+        "raw_no_def_rate": 0.01
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.3459,
+        "raw_no_def_rate": 0.4185
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4812,
+        "raw_no_def_rate": 0.1178
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4286,
+        "raw_no_def_rate": 0.213
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4612,
+        "raw_no_def_rate": 0.2256
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5439,
+        "raw_no_def_rate": 0.0025
+      }
+    },
+    "llama31-8b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5915,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.589,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.584,
+        "raw_no_def_rate": 0.0
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5589,
+        "raw_no_def_rate": 0.0
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5388,
+        "raw_no_def_rate": 0.0
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5915,
+        "raw_no_def_rate": 0.0
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5965,
+        "raw_no_def_rate": 0.0
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.599,
+        "raw_no_def_rate": 0.0
+      }
+    },
+    "starcoder2-15b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6165,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.599,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.005,
+        "raw_no_def_rate": 0.985
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.0,
+        "raw_no_def_rate": 0.9925
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.005,
+        "raw_no_def_rate": 0.9925
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.005,
+        "raw_no_def_rate": 0.9875
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5138,
+        "raw_no_def_rate": 0.183
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6266,
+        "raw_no_def_rate": 0.0025
+      }
+    },
+    "gemma3-12b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6967,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.7193,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.7043,
+        "raw_no_def_rate": 0.0
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.7018,
+        "raw_no_def_rate": 0.0
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6867,
+        "raw_no_def_rate": 0.0
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6967,
+        "raw_no_def_rate": 0.0
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.7018,
+        "raw_no_def_rate": 0.0
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.7143,
+        "raw_no_def_rate": 0.0
+      }
+    },
+    "codegemma-7b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5639,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5288,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5739,
+        "raw_no_def_rate": 0.0
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.4461,
+        "raw_no_def_rate": 0.0551
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.1654,
+        "raw_no_def_rate": 0.5238
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5564,
+        "raw_no_def_rate": 0.0025
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5414,
+        "raw_no_def_rate": 0.0
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5739,
+        "raw_no_def_rate": 0.0
+      }
+    },
+    "granite31-8b": {
+      "Base": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5789,
+        "raw_no_def_rate": 0.0
+      },
+      "ICL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6165,
+        "raw_no_def_rate": 0.0
+      },
+      "Clean": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6015,
+        "raw_no_def_rate": 0.0
+      },
+      "Breadth": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.5439,
+        "raw_no_def_rate": 0.0
+      },
+      "KL": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.2256,
+        "raw_no_def_rate": 0.5088
+      },
+      "Router": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6015,
+        "raw_no_def_rate": 0.0
+      },
+      "Merge": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.614,
+        "raw_no_def_rate": 0.0
+      },
+      "TIES": {
+        "n_tasks": 399,
+        "pass@1_plus": 0.6065,
+        "raw_no_def_rate": 0.0
+      }
+    }
+  }
+}
