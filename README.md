@@ -98,12 +98,3 @@ and exports one adapter. Use `--operator ties` or `--operator linear` for the
 operator comparisons. The base model is loaded in float32 on CPU; enough RAM
 for the full model and adapters is required.
 
-## Scope
-
-This is a minimal method-and-data bundle. It does not include training code,
-model weights, per-example predictions, or the external MBPP+ benchmark tasks.
-It therefore does not rerun the full experiments, recompute confidence intervals,
-or reproduce every paper table. The available corpus files were recovered from
-a separate local dataset copy; regenerated evaluation sets are identified above. Merging requires
-externally supplied base weights and trained specialists. The pinned versions
-come from the recorded environment; full model merging requires those assets.
